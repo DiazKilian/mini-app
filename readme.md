@@ -83,5 +83,5 @@ Endpoint:
 POST /missions/improve-description
 ```
 
-Permite mejorar ala descripción de una misión utilizando IA (Gemini).
+Permite mejorar la descripción de una misión utilizando IA (Gemini).
 
