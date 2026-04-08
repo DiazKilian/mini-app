@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gestor Comunidades</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h1>Gestión de Comunidades</h1>
+
+      <div class="grid">
+        <!-- USUARIOS -->
+        <div class="card">
+          <h2>Usuarios</h2>
+          <input id="userName" placeholder="Nombre" />
+          <input id="userAge" placeholder="Edad" />
+          <input id="userPhone" placeholder="Teléfono" />
+          <button onclick="createUser()">Crear</button>
+          <ul id="usersList"></ul>
+        </div>
+
+        <!-- CREAR MISIÓN -->
+        <div class="card">
+          <h2>Nueva Misión</h2>
+
+          <select id="userSelect"></select>
+          <input id="title" placeholder="Título" />
+          <textarea id="description" placeholder="Descripción"></textarea>
+
+          <button onclick="createMission()">Crear misión</button>
+        </div>
+      </div>
+
+      <!-- LISTA -->
+      <div class="card">
+        <h2>Misiones</h2>
+        <ul id="missionsList"></ul>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
